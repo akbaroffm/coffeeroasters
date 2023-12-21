@@ -47,4 +47,9 @@ h1{
     line-height: 25px;
     border-radius: 6px;
     background: #0E8784;
+
+    &:hover{
+        border-radius: 6px;
+        background: #66D2CF;
+    }
 }
