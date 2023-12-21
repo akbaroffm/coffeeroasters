@@ -1,0 +1,43 @@
+.collection-wrap{
+    margin-top: 126px;
+    background-image: url(../../images/collection-img.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    // background-position: center;
+
+}
+.collection-list{
+    padding-top: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+.collection-card1 {
+    display: flex;
+    width: 255px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    h3 {
+        color: #333D4B;
+        text-align: center;
+        font-family: Fraunces, serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    p {
+        color: #333D4B;
+        text-align: center;
+        font-family: Barlow, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
