@@ -1,0 +1,43 @@
+footer{
+    height: 120px;
+    background: #2C343E;
+}
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    padding-top: 47px;
+    padding-left: 85px;
+}
+.footer__img-wrap{
+    display: inline-block;
+}
+.footer__link-wrap{
+    padding-left: 103px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 33px;
+
+    a{
+        color: #83888F;
+        font-family: Barlow, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+    }
+
+    a:hover{
+        color: black;
+    }
+}
+.footer-social{
+    display: flex;
+    gap: 23px;
+    padding-left: 369px;
+    transition: filter 2s;
+
+}
+
