@@ -216,11 +216,12 @@
       }
     .hero-bg{
         padding: 117px 0 117px 85px;
-        background-image: url(../../images/hero-mobile.jpg);
+        background-image: url(../images/hero-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover; 
-        width: 689px;
+        width: 327px;
         height: 500px;
+        flex-shrink: 0;
         border-radius: 15px;
     }
 
@@ -299,7 +300,7 @@
 
     // about
     .about-wrap{
-        width: 400px;
+        width: 327px;
         height: 902px;
         flex-shrink: 0;
         margin-top: 145px;
